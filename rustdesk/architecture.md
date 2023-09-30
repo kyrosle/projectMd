@@ -53,7 +53,7 @@ https://github.com/kyrosle/rustdesk
 
 ### 两个客户端在同一网段
 
-![](../assets/rustdesk-net.png.png)
+![](../assets/rustdesk-net.png)
 
 位于同一个网段下的两个客户端建立安全连接过程：
 
