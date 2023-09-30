@@ -27,6 +27,12 @@ the RustDesk server hardware requirement:
 
 The hardware requirements are very low, the minimum configuration of the cloud server is enough, and the CPU and memory requirements are the minimum. Regarding the network size, if the TCP hole punching direct connection fails, the relay traffic will be consumed. The traffic of a relay connection is between 30k-3M/s (1920x1080 screen), depending on the resolution settings and screen update. If it is only for office work demand, the traffic is around 100K/s.
 
+- libs/hbb_common: tcp/udp 封装, protobuf
+- hbbs: RustDesk ID注册服务器
+- hbbr: RustDesk 中继服务器
+
+![server](../assets/rustdesk_server.png)
+
 ### 客户端
 
 https://github.com/kyrosle/rustdesk
