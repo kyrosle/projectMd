@@ -15,6 +15,7 @@
 - [p2p ice](./p2p/p2p_ice.md)
 - [p2p sip ](./p2p/p2p_sip.md)
 - [nat 简要](./p2p/nat.md)
+- [nat 机制和检测](./p2p/check_nat.md)
 
 ## IOS Development
 
